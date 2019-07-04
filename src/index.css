@@ -3,7 +3,7 @@ body {
   margin: 20px;
   height: 100vh;
   width: 100vw;
-  text-align: center;
+  /* text-align: center; */
 }
 
 ol, ul {
@@ -22,6 +22,7 @@ ol, ul {
 
 .square {
   position: relative;
+  /* top: 25vh; */
   left: 50%;
   transform: translateX(-50%);
   background: #fff;
@@ -30,7 +31,7 @@ ol, ul {
   font-size: 90px;
   font-weight: bold;
   line-height: 34px;
-  height: 30vh;
+  height: 25vh;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
@@ -52,5 +53,7 @@ ol, ul {
 }
 
 .game-info {
+  position: relative;
+  left: 25%;
   margin-left: 20px;
 }
